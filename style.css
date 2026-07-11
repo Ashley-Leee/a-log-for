@@ -1,6 +1,6 @@
 /* ===========================
    字体
-=========================== */
+
 
 @font-face {
     font-family: "BodyCN";
@@ -10,6 +10,20 @@
 @font-face {
     font-family: "TitleCN";
     src: url("fonts/ChillHuoSong_F_ConRegular.otf");
+}
+=========================== */
+
+
+body{
+
+    font-family:
+        "Source Han Serif SC",
+        "Noto Serif CJK SC",
+        "Songti SC",
+        "STSong",
+        "SimSun",
+        serif;
+
 }
 
 @font-face {
@@ -546,9 +560,15 @@ subtitle
 
 .reader-title{
 
-    font-family:"TitleCN", serif;
+    font-family:
+        "Source Han Serif SC",
+        "Noto Serif CJK SC",
+        "Songti SC",
+        "STSong",
+        "SimSun",
+        serif;
 
-    font-size:34px;
+    font-size:24px;
 
     font-weight:400;
 
