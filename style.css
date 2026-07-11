@@ -1,0 +1,560 @@
+/* ===========================
+   字体
+=========================== */
+
+@font-face {
+    font-family: "BodyCN";
+    src: url("fonts/MinGuoBaoZhiZiTi-1.ttc");
+}
+
+@font-face {
+    font-family: "TitleCN";
+    src: url("fonts/ChillHuoSong_F_ConRegular.otf");
+}
+
+@font-face {
+    font-family: "TitleEN";
+    src: url("fonts/SpaceGrotesk.ttf");
+}
+
+
+@font-face {
+    font-family: "English";
+    src: url("fonts/bahnschrift.ttf");
+}
+
+/* ===========================
+   基础
+=========================== */
+
+:root{
+    --bg:#fafaf8;
+    --text:#2b2b2b;
+    --line:#dddddd;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+
+    margin:0;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:"BodyCN",serif;
+
+    line-height:1.9;
+
+}
+
+main{
+
+    width:min(900px,90%);
+
+    margin:80px auto;
+
+}
+
+/* ===========================
+   标题
+=========================== */
+
+h1,h2,h3{
+
+    font-family:"TitleCN",serif;
+
+    font-weight:600;
+
+}
+
+h1{
+
+    font-size:42px;
+
+    margin-bottom:0;
+
+}
+
+h2{
+
+    font-size:55px;
+
+}
+
+/* 如果某个标题想用英文字体 */
+
+.english{
+
+    font-family:"English";
+
+}
+
+.english2{
+
+    font-family:"TitleEN";
+
+}
+
+/* ===========================
+   导航
+=========================== */
+
+nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:60px;
+
+    margin:60px 0;
+
+}
+
+nav a{
+
+    font-family:"English";
+
+    color:inherit;
+    font-size:20px;
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+nav a:hover{
+
+    opacity:.6;
+
+}
+
+/* ===========================
+   横线
+=========================== */
+
+hr{
+
+    border:none;
+
+    border-top:1px solid var(--line);
+
+    margin:40px 0;
+
+}
+
+/* =====
+subtitle
+=========================== */
+.subtitle{
+
+    margin-top:8px;
+
+    margin-bottom:50px;
+
+    font-size:12px;
+
+    color:#777;
+
+    letter-spacing:0.02em;
+
+    text-transform:none;
+
+}
+
+/* ===========================
+   首页图片
+=========================== */
+
+.home-image{
+
+    margin:50px 0;
+
+    text-align:center;
+
+}
+
+.home-image img{
+
+    width:1200px;
+
+    height:280px;
+
+    object-fit:cover;
+
+}
+
+/* ===========================
+   按钮
+=========================== */
+
+.button{
+
+    font-family:"English";
+
+    display:inline-block;
+
+    border:1px solid #333;
+
+    padding:8px 18px;
+
+    color:#333;
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+.button:hover{
+
+    background:#333;
+
+    color:white;
+
+}
+
+/* ===========================
+   分类
+=========================== */
+
+.group-grid{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:60px;
+
+    margin-top:60px;
+
+}
+
+.group-card{
+
+    width:260px;
+
+    display:block;
+
+    color:inherit;
+
+    text-decoration:none;
+
+    border:1px solid #ddd;
+
+    overflow:hidden;
+
+    transition:.25s;
+
+}
+
+.group-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+}
+
+.group-card img{
+
+    width:100%;
+
+    height:120px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.3s;
+
+}
+
+.group-card:hover img{
+
+    transform:scale(1.03);
+
+}
+
+.group-title{
+
+    font-family:"TitleCN";
+
+    padding:16px;
+
+    text-align:center;
+
+    font-size:20px;
+
+}
+
+/* ===========================
+   作品列表
+=========================== */
+
+.group-header{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+}
+
+.group-header h2{
+
+    margin-bottom:18px;
+
+}
+
+.group-line{
+
+    width:70px;
+
+    height:1px;
+
+    background:#bbb;
+
+    margin:auto;
+
+}
+
+.work-list{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:auto;
+
+    max-width:700px;
+
+}
+
+.work-list li{
+
+    border-bottom:1px solid #ececec;
+
+}
+
+.work-link{
+
+    display:block;
+
+    color:inherit;
+
+    text-decoration:none;
+
+    padding:24px 0;
+
+}
+
+.work-item{
+
+    border-bottom:1px solid #e6e6e6;
+
+}
+
+.work-description{
+
+    margin-top:10px;
+
+    color:#888;
+
+    font-size:12px;
+
+    line-height:1.8;
+
+}
+
+.work-list a:hover{
+
+    background:#fafafa;
+
+    padding-left:22px;
+
+}
+
+.work-number{
+
+    font-family:"English";
+
+    width:40px;
+
+    color:#999;
+
+    font-size:15px;
+
+}
+
+.work-title{
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   Reader
+=========================== */
+
+#content{
+
+    max-width:760px;
+
+    margin:auto;
+    font-family:"BodyCN", serif;
+
+    font-size:14px;
+
+    line-height:2.4;
+
+}
+
+#content img{
+
+    max-width:100%;
+
+}
+
+.reader-nav{
+
+    margin-top:60px;
+
+    text-align:center;
+
+}
+
+.reader-nav button{
+
+    font-family:"English";
+
+    border:1px solid #999;
+
+    background:none;
+
+    padding:10px 22px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.2s;
+
+}
+
+.reader-nav button:hover{
+
+    background:#eee;
+
+}
+
+/* ===========================
+   About
+=========================== */
+
+.about-content{
+
+    max-width:720px;
+
+    margin:auto;
+
+    font-family:"BodyCN", serif;
+
+    font-size:14px;
+
+    line-height:2.2;
+
+}
+
+.about-content p{
+
+    margin-bottom:24px;
+
+}
+
+/* =========================================================
+   页面副标题
+========================================================= */
+
+.page-description{
+
+    margin-top:12px;
+
+    margin-bottom:35px;
+
+    color:#777;
+
+    font-family:"BodyCN", serif;
+
+    font-size:12px;
+
+    line-height:1.8;
+
+}
+
+/* =========================================================
+   Gallery
+========================================================= */
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.gallery-item{
+
+    display:block;
+
+    overflow:hidden;
+
+    border:1px solid #ddd;
+
+}
+
+.gallery-item img{
+
+    width:100%;
+
+    aspect-ratio:1/1;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.25s;
+
+}
+
+.gallery-item:hover img{
+
+    transform:scale(1.03);
+
+    opacity:.92;
+
+}
+
+.reader-title{
+
+    font-family:"TitleCN", serif;
+
+    font-size:34px;
+
+    font-weight:400;
+
+    text-align:center;
+
+    margin-bottom:30px;
+    
+
+}
