@@ -2,7 +2,7 @@
   "works": [
     {
       "title": "深夜食堂",
-      "description": "Unlight / 2016 / 捏造的连队生活",
+      "description": "Unlight / 2017 / 捏造的连队生活",
       "file": "works/UL/深夜食堂.md"
     },
     {
@@ -24,6 +24,16 @@
       "title": "Schnee von gestern",
       "description": "Unlight / 2016 / 至今没等到被证实或证伪的果E酱过去捏造",
       "file": "works/UL/Schneevongestern.md"
+    },
+    {
+      "title": "提修斯的礼物",
+      "description": "Unlight / 2016 / 果E酱，有许多与现在不同的力度",
+      "file": "works/UL/提修斯的礼物.md"
+    },
+    {
+      "title": "Golden Slumbers Else If",
+      "description": "Unlight / 2017 / 2017年的雨果生贺，不知为何文档开篇记载“献给我亲爱的小狗狗”，又依稀记得当时这样写的经纬，这辈子后面想要重新献一些别的……",
+      "file": "works/UL/GoldenSlumbersElseIf.md"
     },
     {
       "title": "夢のまた夢",
