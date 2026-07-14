@@ -36,3 +36,17 @@ async function loadWorks() {
 }
 
 loadWorks();
+
+const video = document.getElementById("home-video");
+
+if (video) {
+
+    const randomVideo = Math.random() < 0.75
+        ? "images/mov3.mp4"
+        : "images/mov4.mp4";
+
+    video.querySelector("source").src = randomVideo;
+
+    video.load();
+
+}

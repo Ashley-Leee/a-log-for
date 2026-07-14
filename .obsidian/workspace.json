@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "works/UL/endofyourdream.md",
+                "file": "works/UL/wishyouwerehere.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "endofyourdream"
+              "title": "wishyouwerehere"
             }
           }
         ]
@@ -185,8 +185,10 @@
   },
   "active": "0d1686a939a15303",
   "lastOpenFiles": [
-    "works/UL/manusya.md",
+    "images/mov4.mp4",
+    "images/grid-noise-1784015884949.mp4",
     "works/UL/endofyourdream.md",
+    "works/UL/manusya.md",
     "works/UL/通常运行.md",
     "works/UL/GoldenSlumbersElseIf.md",
     "works/UL/假本宣2017.md",
@@ -217,7 +219,6 @@
     "images/gallery/08 (1).png",
     "images/gallery/IMG_3006.PNG",
     "images/gallery/無題 - 2026年3月18日 03.12.25.png",
-    "images/gallery",
     "works/UL/夢のまた夢.md",
     "works/UL/打牌乌波斯与好好吃饭.md",
     "works/UL/Schnee von gestern.md",
@@ -229,7 +230,6 @@
     "UL/Stairway to Valhalla.md",
     "UL/夢のまた夢.md",
     "UL/reverse.md",
-    "UL/wish you were here.md",
-    "UL/Schnee von gestern.md"
+    "UL/wish you were here.md"
   ]
 }
